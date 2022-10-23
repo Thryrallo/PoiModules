@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Thry_Convolution
+  m_Shader: {fileID: 4800000, guid: 732d71402e4e5af40a597a3ad58d621a, type: 3}
+  m_ShaderKeywords: _CONVOLUTION_ENABLED _CONVOLUTION_GRABPASS _CONVOLUTION_SEPERATE_KERNELS
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 2450
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: c52984d0a6817cd4997ffe016a84b55d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _ConvolutionEnabled: 1
+    - _Convolution_SeperateKernels: 1
+    - _Convolution_Type: 5
+    - _Convolution_UseGrabPass: 1
+    - _Convolution_UseGrayscale: 0
+    - _MainTexUV: 0
+    - m_end_convolution: 0
+    - m_start_convolution: 1
+    - shader_is_using_thry_editor: 69
+    m_Colors:
+    - _Convolution_Kernel_X_0: {r: 1, g: 0, b: -1, a: 0}
+    - _Convolution_Kernel_X_1: {r: 2, g: 0, b: -2, a: 0}
+    - _Convolution_Kernel_X_2: {r: 1, g: 0, b: -1, a: 0}
+    - _Convolution_Kernel_Y_0: {r: 1, g: 2, b: 1, a: 0}
+    - _Convolution_Kernel_Y_1: {r: 0, g: 0, b: 0, a: 0}
+    - _Convolution_Kernel_Y_2: {r: -1, g: -2, b: -1, a: 0}
+    - _MainTexPan: {r: 2, g: 0, b: 0, a: 0}
